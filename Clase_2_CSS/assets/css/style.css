@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+}
+
+/*Seccion header sitio*/
+.header-section{
+  width: 100%;
+  height: 500px;
+  background-image: url('../img/bg-banner.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding: 2%;
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+}
+
+.header-section > h1{
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.header-section > h3{
+  font-style: italic;
+  font-weight: 400;
+}
+
+.header-section > a {
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 3rem;
+  font-size: 1rem;
+
+}
+
+/*Contenido*/
+.contenido {
+  width: 1279px;
+  margin: 0 auto;
+}
+
+.card {
+  -webkit-box-shadow: 1px -8px 42px -23px rgba(0,0,0,1);
+  -moz-box-shadow: 1px -8px 42px -23px rgba(0,0,0,1);
+  box-shadow: 1px -8px 42px -23px rgba(0,0,0,1);
+  margin: 5% auto;
+  border-radius: 10px;
+  border:1px solid #242424;
+  height: 500px;
+}
+.card td {
+  width: 50%;
+  padding: 0 5%;
+}
+
+.img-auto {
+  width: 600px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.titulo-auto {
+  font-size: 2rem;
+  line-height: 3rem;;
+}
+
+.botones {
+  margin:10px 0;
+}
+
+.btn-cotizar {
+  margin: 10px 0;
+  background-color: #de0039;
+  border:2px solid #de0039;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-ver {
+  border: 2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: transparent;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.caracteristicas {
+  list-style: none;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 1.1rem;
+  font-size: 0.7rem;
+}
+
+/*Footer*/
+.footer-sitio{
+  width: 100%;
+  background-image: url('../img/bg-footer.jpg');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2%;
+}
+
+.logo-footer {
+  width: 200px;
+}
+.seccion-footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+.seccion-footer td{
+  width: 33%;
+  margin: 0 auto;
+}
+
+.lista-footer {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.texto-resaltado{
+  font-weight: 700;
+}
+
+.rrss {
+  color: #fff;
+  text-decoration: none;
+}
